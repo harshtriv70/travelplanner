@@ -1,0 +1,77 @@
+
+/* Travel Planner AI - Modern Clean Styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f0f8ff 0%, #e0e7ff 100%);
+    text-align: center;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px 24px 18px 24px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.10);
+}
+
+form label {
+    display: block;
+    margin: 12px 0 4px 0;
+    font-weight: 500;
+    text-align: left;
+}
+
+input[type="text"], input[type="number"] {
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    width: 95%;
+    border-radius: 6px;
+    border: 1px solid #bfc9d1;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+input:focus {
+    border: 1.5px solid #007BFF;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(90deg, #007BFF 60%, #00c6ff 100%);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    width: 100%;
+    margin-top: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0056b3 60%, #0099cc 100%);
+}
+
+.result {
+    margin-top: 28px;
+    padding: 18px 14px;
+    border-radius: 10px;
+    background: #e6f7ff;
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 1.05rem;
+    box-shadow: 0 2px 8px rgba(0,123,255,0.06);
+}
+
+.footer {
+    margin-top: 32px;
+    color: #888;
+    font-size: 0.95rem;
+}

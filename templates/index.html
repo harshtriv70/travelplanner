@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Planner AI</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌍 Travel Planner AI</h1>
+      <!-- Trip planning form -->
+      <form action="/plan" method="post">
+        <label for="destination">Destination:</label>
+        <input
+          type="text"
+          name="destination"
+          id="destination"
+          placeholder="e.g. Paris, Tokyo, Goa"
+          required
+        /><br />
+
+        <label for="budget">Budget (in USD):</label>
+        <input
+          type="number"
+          name="budget"
+          id="budget"
+          placeholder="e.g. 1000"
+          min="1"
+          required
+        /><br />
+
+        <label for="duration">Duration (in days):</label>
+        <input
+          type="number"
+          name="duration"
+          id="duration"
+          placeholder="e.g. 5"
+          min="1"
+          required
+        /><br />
+
+        <label for="preferences"
+          >Preferences (e.g., adventure, food, culture):</label
+        >
+        <input
+          type="text"
+          name="preferences"
+          id="preferences"
+          placeholder="Optional"
+        /><br />
+
+        <button type="submit">✨ Plan My Trip</button>
+      </form>
+
+      <!-- Display AI result if available -->
+      {% if result %}
+      <div class="result">
+        <h2>✨ Your Travel Plan:</h2>
+        <pre>{{ result|safe }}</pre>
+      </div>
+      {% endif %}
+      <div class="footer">
+        <small
+          >Powered by IBM Watsonx.ai Granite LLM | Final Year Project</small
+        >
+      </div>
+    </div>
+  </body>
+</html>
