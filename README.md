@@ -42,4 +42,14 @@ While building and hosting this project using IBM Cloud and Granite LLM API, I e
    - Certain advanced features and higher scalability were locked behind paid plans.  
    - I worked within these limits and focused on building a functional prototype.  
 ---
-## 📂 Project Structure  
+## 📂 Project Screenshot :
+<img width="1472" height="704" alt="travelagent" src="https://github.com/user-attachments/assets/3b641c0c-c044-44a7-862e-12552524d68c" />
+<img width="1907" height="926" alt="image" src="https://github.com/user-attachments/assets/fa1f3739-f08e-4b5c-8265-ee01d1745a79" />
+<img width="1889" height="920" alt="image" src="https://github.com/user-attachments/assets/126389fe-d41d-4099-b447-ca0422108ae2" />
+<img width="694" height="559" alt="image" src="https://github.com/user-attachments/assets/2aba242e-8ebb-4aed-a694-9ef66a3cec18" />
+
+
+
+
+
+
